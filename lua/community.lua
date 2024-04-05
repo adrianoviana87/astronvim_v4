@@ -15,5 +15,20 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.motion.nvim-surround" },
+  {
+    "copilot.lua",
+    opts = {
+      suggestion = {
+        keymap = {
+          accept = "<C-l>",
+          accept_word = false,
+          accept_line = false,
+          next = "<C-.>",
+          prev = "<C-,>",
+          dismiss = "<C/>",
+        },
+      },
+    },
+  },
   -- import/override with your plugins folder
 }
