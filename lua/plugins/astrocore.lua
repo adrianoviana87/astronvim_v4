@@ -30,6 +30,7 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
+        clipboard = "unnamed", -- sets vim.opt.clipboard
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -81,6 +82,11 @@ return {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
       },
+      i = {
+        ["<C-e>"] = { "" },
+        ["<C-t>"] = { "" },
+        ["<C-d>"] = { "󰸞"},
+      }
     },
   },
 }
