@@ -17,3 +17,4 @@
 --   },
 -- }
 vim.o.cursorline = false
+vim.o.scrolloff = 3
