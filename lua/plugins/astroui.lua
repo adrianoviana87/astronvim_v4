@@ -12,6 +12,7 @@ return {
     -- colorscheme = "astrolight",
     -- colorscheme = "astrodark",
     colorscheme = "vscode",
+    -- colorscheme = "bamboo",
     -- colorscheme = "github_light_high_contrast",
     -- colorscheme = "github_dark_high_contrast",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
