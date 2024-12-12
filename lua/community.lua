@@ -13,11 +13,13 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.markdown" },
-  -- { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.scrolling.mini-animate" },
   {
     "copilot.lua",
     opts = {
